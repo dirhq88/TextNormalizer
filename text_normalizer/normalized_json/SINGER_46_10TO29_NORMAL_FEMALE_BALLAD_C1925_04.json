@@ -1,0 +1,271 @@
+{
+  "notes": [
+    {
+      "start_time": "55.901",
+      "end_time": "59.962",
+      "length": "4.061",
+      "midi_num": 0,
+      "note_name": "None",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": " "
+    },
+    {
+      "start_time": "59.962",
+      "end_time": "60.149",
+      "length": "0.187",
+      "midi_num": 64,
+      "note_name": "E4",
+      "is_bending": true,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "가"
+    },
+    {
+      "start_time": "60.149",
+      "end_time": "60.394",
+      "length": "0.245",
+      "midi_num": 65,
+      "note_name": "F4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "아"
+    },
+    {
+      "start_time": "60.394",
+      "end_time": "60.941",
+      "length": "0.547",
+      "midi_num": 68,
+      "note_name": "G#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "끔"
+    },
+    {
+      "start_time": "60.941",
+      "end_time": "61.615",
+      "length": "0.674",
+      "midi_num": 0,
+      "note_name": "None",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": " "
+    },
+    {
+      "start_time": "61.615",
+      "end_time": "61.825",
+      "length": "0.210",
+      "midi_num": 63,
+      "note_name": "D#4",
+      "is_bending": true,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "아"
+    },
+    {
+      "start_time": "61.825",
+      "end_time": "62.089",
+      "length": "0.264",
+      "midi_num": 65,
+      "note_name": "F4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "아"
+    },
+    {
+      "start_time": "62.089",
+      "end_time": "62.521",
+      "length": "0.432",
+      "midi_num": 68,
+      "note_name": "G#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "픈"
+    },
+    {
+      "start_time": "62.521",
+      "end_time": "62.681",
+      "length": "0.160",
+      "midi_num": 71,
+      "note_name": "B4",
+      "is_bending": true,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "나"
+    },
+    {
+      "start_time": "62.681",
+      "end_time": "62.950",
+      "length": "0.269",
+      "midi_num": 73,
+      "note_name": "C#5",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "알"
+    },
+    {
+      "start_time": "62.950",
+      "end_time": "63.580",
+      "length": "0.630",
+      "midi_num": 72,
+      "note_name": "C5",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "이"
+    },
+    {
+      "start_time": "63.580",
+      "end_time": "64.149",
+      "length": "0.569",
+      "midi_num": 0,
+      "note_name": "None",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": " "
+    },
+    {
+      "start_time": "64.149",
+      "end_time": "64.582",
+      "length": "0.433",
+      "midi_num": 68,
+      "note_name": "G#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "오"
+    },
+    {
+      "start_time": "64.582",
+      "end_time": "65.342",
+      "length": "0.760",
+      "midi_num": 65,
+      "note_name": "F4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "면"
+    },
+    {
+      "start_time": "65.342",
+      "end_time": "65.719",
+      "length": "0.377",
+      "midi_num": 0,
+      "note_name": "None",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": " "
+    },
+    {
+      "start_time": "65.719",
+      "end_time": "66.002",
+      "length": "0.283",
+      "midi_num": 62,
+      "note_name": "D4",
+      "is_bending": true,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "자"
+    },
+    {
+      "start_time": "66.002",
+      "end_time": "66.163",
+      "length": "0.161",
+      "midi_num": 63,
+      "note_name": "D#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "암"
+    },
+    {
+      "start_time": "66.163",
+      "end_time": "66.931",
+      "length": "0.768",
+      "midi_num": 61,
+      "note_name": "C#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "시"
+    },
+    {
+      "start_time": "66.931",
+      "end_time": "67.429",
+      "length": "0.498",
+      "midi_num": 0,
+      "note_name": "None",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": " "
+    },
+    {
+      "start_time": "67.429",
+      "end_time": "67.877",
+      "length": "0.448",
+      "midi_num": 58,
+      "note_name": "A#3",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "울"
+    },
+    {
+      "start_time": "67.877",
+      "end_time": "68.351",
+      "length": "0.474",
+      "midi_num": 61,
+      "note_name": "C#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "고"
+    },
+    {
+      "start_time": "68.351",
+      "end_time": "68.667",
+      "length": "0.316",
+      "midi_num": 0,
+      "note_name": "None",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": " "
+    },
+    {
+      "start_time": "68.667",
+      "end_time": "69.134",
+      "length": "0.467",
+      "midi_num": 58,
+      "note_name": "A#3",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "가"
+    },
+    {
+      "start_time": "69.134",
+      "end_time": "69.613",
+      "length": "0.479",
+      "midi_num": 61,
+      "note_name": "C#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "도"
+    }
+  ],
+  "start_time": "55.901",
+  "end_time": "69.613",
+  "duration": "13.712"
+}

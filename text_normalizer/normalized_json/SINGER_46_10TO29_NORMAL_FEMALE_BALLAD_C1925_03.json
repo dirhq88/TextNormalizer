@@ -1,0 +1,216 @@
+{
+  "notes": [
+    {
+      "start_time": "44.538",
+      "end_time": "44.826",
+      "length": "0.288",
+      "midi_num": 0,
+      "note_name": "None",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": " "
+    },
+    {
+      "start_time": "44.826",
+      "end_time": "45.163",
+      "length": "0.337",
+      "midi_num": 66,
+      "note_name": "F#4",
+      "is_bending": true,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "세"
+    },
+    {
+      "start_time": "45.163",
+      "end_time": "45.830",
+      "length": "0.667",
+      "midi_num": 68,
+      "note_name": "G#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "엣"
+    },
+    {
+      "start_time": "45.830",
+      "end_time": "46.455",
+      "length": "0.625",
+      "midi_num": 65,
+      "note_name": "F4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "도"
+    },
+    {
+      "start_time": "46.455",
+      "end_time": "47.437",
+      "length": "0.982",
+      "midi_num": 0,
+      "note_name": "None",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": " "
+    },
+    {
+      "start_time": "47.437",
+      "end_time": "47.873",
+      "length": "0.436",
+      "midi_num": 63,
+      "note_name": "D#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "이"
+    },
+    {
+      "start_time": "47.873",
+      "end_time": "48.123",
+      "length": "0.250",
+      "midi_num": 65,
+      "note_name": "F4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "렇"
+    },
+    {
+      "start_time": "48.123",
+      "end_time": "48.686",
+      "length": "0.563",
+      "midi_num": 65,
+      "note_name": "F4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "게"
+    },
+    {
+      "start_time": "48.686",
+      "end_time": "49.830",
+      "length": "1.144",
+      "midi_num": 0,
+      "note_name": "None",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": " "
+    },
+    {
+      "start_time": "49.830",
+      "end_time": "50.189",
+      "length": "0.359",
+      "midi_num": 62,
+      "note_name": "D4",
+      "is_bending": true,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "시"
+    },
+    {
+      "start_time": "50.189",
+      "end_time": "51.241",
+      "length": "1.052",
+      "midi_num": 63,
+      "note_name": "D#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "이"
+    },
+    {
+      "start_time": "51.241",
+      "end_time": "51.524",
+      "length": "0.283",
+      "midi_num": 65,
+      "note_name": "F4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "간"
+    },
+    {
+      "start_time": "51.524",
+      "end_time": "52.306",
+      "length": "0.782",
+      "midi_num": 63,
+      "note_name": "D#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "이"
+    },
+    {
+      "start_time": "52.306",
+      "end_time": "52.828",
+      "length": "0.522",
+      "midi_num": 0,
+      "note_name": "None",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": " "
+    },
+    {
+      "start_time": "52.828",
+      "end_time": "53.295",
+      "length": "0.467",
+      "midi_num": 61,
+      "note_name": "C#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "흘"
+    },
+    {
+      "start_time": "53.295",
+      "end_time": "53.476",
+      "length": "0.181",
+      "midi_num": 65,
+      "note_name": "F4",
+      "is_bending": true,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "러"
+    },
+    {
+      "start_time": "53.476",
+      "end_time": "54.181",
+      "length": "0.705",
+      "midi_num": 66,
+      "note_name": "F#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "었"
+    },
+    {
+      "start_time": "54.181",
+      "end_time": "54.913",
+      "length": "0.732",
+      "midi_num": 65,
+      "note_name": "F4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "는"
+    },
+    {
+      "start_time": "54.913",
+      "end_time": "55.901",
+      "length": "0.988",
+      "midi_num": 61,
+      "note_name": "C#4",
+      "is_bending": false,
+      "is_vibrt": false,
+      "is_breath": false,
+      "lyric": "지"
+    }
+  ],
+  "start_time": "44.538",
+  "end_time": "55.901",
+  "duration": "11.363"
+}
