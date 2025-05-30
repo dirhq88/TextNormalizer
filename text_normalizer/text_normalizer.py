@@ -4,10 +4,11 @@ import re
 from jamo import h2j, j2h
 
 class TextNormalizer:
-    TYPE_NO_CHANGE = 'no_change'
+    #TYPE_NO_CHANGE = 'no_change'
     TYPE_CHANGE = 'change'
-    TYPE_MERGE_NO_PITCH = 'merge_no_pitch' # without pitch change
-    TYPE_MERGE_WITH_PITCH = 'merge_with_pitch' # with pitch change
+    TYPE_MERGE = 'merge'
+    TYPE_CHANGE_WITH_PITCH = 'change_with_pitch_change'
+    TYPE_MERGE_NO_PITCH = 'merge_no_pitch_change' # without pitch change
     TYPE_SILENCE = 'silence'  # for spaces
     
     def __init__(self):
@@ -177,26 +178,15 @@ class TextNormalizer:
                                   raw_indices: List[int], pitch_sequence: List[int], current_idx: int) -> Tuple[List[str], List[int], List[Dict]]:
         """1:1 매핑을 처리합니다."""
         gt_syllable = gt_syllables[gt_idx]
-        raw_syllable = raw_syllables[raw_indices[0]]
         
-        if gt_syllable == raw_syllable:
-            normalized_info = {
-                'type': self.TYPE_NO_CHANGE,
-                'normalized_syllable': gt_syllable,
-                'gt_idx': gt_idx,
-                'raw_idx': raw_indices[0],
-                'normalized_idx': current_idx
-            }
-            return [gt_syllable], [pitch_sequence[raw_indices[0]]], [normalized_info]
-        else:
-            normalized_info = {
-                'type': self.TYPE_CHANGE,   
-                'normalized_syllable': gt_syllable,
-                'gt_idx': gt_idx,
-                'raw_idx': raw_indices[0],
-                'normalized_idx': current_idx
-            }
-            return [gt_syllable], [pitch_sequence[raw_indices[0]]], [normalized_info]
+        normalized_info = {
+            'type': self.TYPE_CHANGE,   
+            'normalized_syllable': gt_syllable,
+            'gt_idx': gt_idx,
+            'raw_idx': raw_indices[0],
+            'normalized_idx': current_idx
+        }
+        return [gt_syllable], [pitch_sequence[raw_indices[0]]], [normalized_info]
 
     def normalize_one_to_many_mapping(self, gt_syllables: List[str], gt_idx: int, raw_syllables: List[str], 
                                    raw_indices: List[int], pitch_sequence: List[int], current_idx: int) -> Tuple[List[str], List[int], List[Dict]]:
@@ -205,7 +195,7 @@ class TextNormalizer:
             gt_syllable = gt_syllables[gt_idx]
             
             normalized_info = {
-                'type': self.TYPE_MERGE_NO_PITCH,
+                'type': self.TYPE_MERGE,
                 'normalized_syllable': gt_syllable,
                 'gt_idx': gt_idx,
                 'raw_indices': raw_indices,
@@ -261,7 +251,7 @@ class TextNormalizer:
             normalized_texts.append(normalized_text)
             normalized_pitches.append(pitch_sequence[start])
             normalization_infos.append({
-                'type': self.TYPE_MERGE_WITH_PITCH,
+                'type': self.TYPE_MERGE if len(list(range(start, end + 1))) > 1 else self.TYPE_CHANGE,
                 'normalized_syllable': normalized_text,
                 'gt_idx': gt_idx,
                 'raw_indices': list(range(start, end + 1)),
